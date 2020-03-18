@@ -1,0 +1,27 @@
+Proof of Concept on Velocity Template
+What is Velocity?
+Velocity is a Java-based template engine. It permits web page designers to reference methods defined in Java code. 
+
+Why should I use it?
+Velocity provides functionality to designed and use general templating tools, so that it can work with any Java application that requires data formatting and presentation as well.
+ 
+Some reasons to use velocity :
+•	It adapts to many application areas
+•	It provides a simple and clear syntax for the template designer
+•	It offers a simple programming model for the developer
+•	With velocity you can develop and maintain template  and code separately.
+•	The Velocity engine provides easy integration with any Java application environment.
+•	Velocity enables templates to access any public method of data objects in the context
+
+CONCEPTS IMPLEMENTED USING VELOCITY TEMPLATE:
+The template HTML code is written in .vm file .The values are given as per user’s need to velocity template from java class. The PDF for HTML content is generated using velocity template.
+MAIL TRIGGERING:
+The pdf generated from velocity template is attached with mail and triggered. 
+
+PseudoCode:
+1)Values from java class 
+2)HTML Template in vm file
+3)HTML template obtained as String
+4)HTML to PDF conversion
+5)PDF embedded in Email 
+6)Mail Generation
